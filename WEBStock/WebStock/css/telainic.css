@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background-color: #d5d5d5
+}
+
+.container {
+    display: flex;
+    background-color: #d5d5d5;
+    border-radius: 20px;
+    box-shadow: 1 200px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 100dvh;
+}
+
+
+.content {
+    padding: 40px;
+    margin:20px;
+    background-color: #ee5d7d; /* Fundo rosa */
+    border-radius: 20px;
+    color: white;
+    width: 65%;
+    text-align: center;
+}
+
+
+.highlight1 {
+    color: #007bff; /* Cor para 'WEB' */
+    border: #3247c6;
+}
+
+
+.highlight2 {
+    color: #ffd428; /* Cor para 'Stock' */
+}
+
+.login {
+    padding: 45px;
+    background-color: #FFFFFF; /* Fundo cinza claro */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.login h2 {
+    color: #333;
+}
+
+.profile {
+    margin-top: 100px;
+}
+
+button {
+    display: block; 
+    width: -50%; 
+    margin: 20px auto; 
+    padding: 15px; 
+    background-color: #3247c3;
+    color: rgb(255, 255, 255); 
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+button:hover {
+    background-color: #292ce6; 
+    transform: translateY(-2px); 
+}
+
+h4 {
+    color: #d9d9d9;
+}
+
+h5 {
+    color: #d9d9d9;
+}
+
+a  {
+    color: white;
+    width: 65%;
+}
+
+label {
+    color: #d9d9d9;
+}
+
+hr {
+  border: 1px solid; /* Cria uma linha com 1 pixel de espessura e cor preta */
+  width: 95%; /* Define a largura da linha como 85% da tela */
+  color: #3235c6;
+}
+
+a {
+    color:  rgba(52, 55, 248, 0.918); 
+}
+
+img { 
+    width: 85px;
+    height: auto;
+}
